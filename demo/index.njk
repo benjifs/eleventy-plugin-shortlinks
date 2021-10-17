@@ -1,0 +1,8 @@
+---
+eleventyExcludeFromCollections: true
+---
+{% for item in collections.all %}
+<div>
+	<a href="{{ item.url | shortlink }}">/{{ item.url | shortlink }}</a> -> <a href="{{ item.url }}">{{ item.url }}</a>
+</div>
+{% endfor %}

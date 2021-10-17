@@ -1,0 +1,38 @@
+{
+  "name": "eleventy-plugin-shortlinks",
+  "version": "0.1.0",
+  "description": "Eleventy plugin to create shortlinks and redirects for items in collections based on Whistle",
+  "main": ".eleventy.js",
+  "scripts": {
+    "demo": "cd demo && npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjifs/eleventy-plugin-shortlinks.git"
+  },
+  "keywords": [
+    "11ty",
+    "11ty-plugin",
+    "eleventy",
+    "eleventy-plugin",
+    "newbase60",
+    "shortlink",
+    "whistle"
+  ],
+  "author": {
+    "name": "Benji Encalada Mora",
+    "email": "b@encalada.dev",
+    "url": "https://benji.dog/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjifs/eleventy-plugin-shortlinks/issues"
+  },
+  "homepage": "https://github.com/benjifs/eleventy-plugin-shortlinks",
+  "dependencies": {
+    "newbase60": "^1.3.1"
+  },
+  "peerDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}
