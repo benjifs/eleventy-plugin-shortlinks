@@ -1,6 +1,6 @@
 {
   "name": "eleventy-plugin-shortlinks",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Eleventy plugin to create shortlinks and redirects for items in collections based on Whistle",
   "main": ".eleventy.js",
   "scripts": {
