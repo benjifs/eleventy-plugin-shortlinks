@@ -29,10 +29,10 @@
     "url": "https://github.com/benjifs/eleventy-plugin-shortlinks/issues"
   },
   "homepage": "https://github.com/benjifs/eleventy-plugin-shortlinks",
+  "11ty": {
+    "compatibility": ">=0.12"
+  },
   "dependencies": {
     "newbase60": "^1.3.1"
-  },
-  "peerDependencies": {
-    "@11ty/eleventy": "^0.12.1"
   }
 }
